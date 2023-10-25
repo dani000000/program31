@@ -11,8 +11,7 @@ int2 = input('Enter the name of the output file:')
 homeless = pd.read_csv(int1)
 homeless['Fraction Children'] = homeless['Total Children in Shelter'] / homeless['Total Individuals in Shelter']
 
-homeless.plot(x='Date of census', y='Fraction children')
+homeless.plot(x = 'Date of census', y = 'Fraction children')
 
 fig = plt.gcf()
 fig.savefig(int2)
-https://huntercsci127.github.io/s23.html
