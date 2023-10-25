@@ -5,8 +5,8 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-int1 = input('Enter the nasme of the input file: ')
-int2 = input('Enter the name of the output file: ')
+int1 = input('Enter the nasme of the input file:')
+int2 = input('Enter the name of the output file:')
 
 homeless = pd.read_csv(int1)
 homeless['Fraction Children'] = homeless['Total Children in Shelter'] / homeless['Total Individuals in Shelter']
