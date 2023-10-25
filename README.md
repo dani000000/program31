@@ -5,7 +5,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-int1 = input('Enter the nasme of the input file:')
+int1 = input('Enter the name of the input file:')
 int2 = input('Enter the name of the output file:')
 
 homeless = pd.read_csv(int1)
